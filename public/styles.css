@@ -1,0 +1,63 @@
+/* General styles */
+body {
+  background-color: #95D2B3; /* Light blue background */
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the chat container */
+#chat {
+  max-width: 600px; /* Adjusted for better responsiveness */
+  margin: 3rem auto;
+  border-radius: 10px; /* Slightly increased border radius */
+  border: 2px solid #F1F8E8; /* Added black border */
+  padding: 20px; /* Added padding for spacing */
+  background-color: white; /* Added background color */
+}
+
+/* Style for messages sent by the local client (on the right) */
+.local-message {
+  text-align: right;
+  background-color: #e0f2fe;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* Join button style */
+.join-btn {
+  background-color: #36BA98;
+  color: #fff;
+}
+
+/* Style for messages sent by other clients (on the left) */
+.other-message {
+  text-align: left;
+  background-color: #F1F8E8;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* Navbar style */
+.navbar {
+  background-color: #36BA98;
+}
+
+/* Font Awesome icon style */
+.fa-solid {
+  color: #fff;
+}
+
+/* Welcome message style */
+.chat-message {
+  background-color: #d4edda;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #155724;
+}
+
+/* Ensure the welcome message is always at the top */
+#welcome-message {
+  position: relative;
+}
